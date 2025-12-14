@@ -1,0 +1,187 @@
+/* App */
+"app.name" = "ArcScope";
+
+/* Library */
+"library.title" = "资料库";
+"library.db_label" = "数据库：%@";
+"library.select_database" = "选择数据库";
+"library.loading" = "加载中…";
+"library.analyze_new_film" = "分析新影片";
+"library.database" = "数据库";
+"library.references" = "参考";
+"library.export" = "导出";
+"library.settings" = "设置";
+"library.empty_state.title" = "开始使用";
+"library.empty_state.body" = "选择数据库，或分析一部影片以创建数据库。";
+
+/* Progress */
+"progress.analyzing" = "分析中…%@";
+
+/* Timeline */
+"timeline.selected.u_range" = "u：%@–%@";
+"timeline.hud.t_u" = "t = %@  ·  u = %@";
+"timeline.hud.t" = "t = %@";
+"timeline.hud.ref" = "参考 %@：%@";
+
+/* Settings */
+"settings.title" = "设置";
+"settings.subtitle" = "分析参数（保存于本地 UserDefaults）。";
+"settings.close" = "关闭";
+"settings.section.structure" = "结构";
+"settings.structure.reparam" = "Scene/Sequence 切分按情绪进度 u(t) 重参数化";
+
+/* Export */
+"export.mode" = "模式";
+"export.mode.poster" = "海报";
+"export.mode.report" = "报告";
+
+"export.poster.title" = "海报导出";
+"export.poster.subtitle" = "导出 Film Fingerprint Poster（PNG / PDF）。";
+"export.poster.export_png" = "导出 PNG";
+"export.poster.export_pdf" = "导出 PDF";
+"export.report.title" = "报告导出";
+"export.report.subtitle" = "标准分析报告（PDF / Markdown）。";
+"export.report.export_markdown" = "导出 Markdown";
+"export.report.export_pdf" = "导出 PDF";
+"export.close" = "关闭";
+"export.markdown_preview" = "Markdown 预览";
+"export.section.curves" = "曲线";
+"export.section.structure" = "结构";
+"export.section.diagnostics" = "诊断";
+"export.no_issues" = "未检测到问题。";
+"export.more_issues" = "……另有 %d 条";
+"export.report.footer" = "ArcScope · 标准报告";
+"export.poster.footer" = "ArcScope · Film Fingerprint";
+"export.poster.core_curves" = "核心曲线";
+"export.poster.keyframes" = "关键帧（Pace/Arousal 峰值）";
+"export.poster.keyframes.unavailable" = "无法生成关键帧（缺少 filePath 或曲线无峰值）。";
+
+/* Reference Picker */
+"reference.title" = "参考库";
+"reference.subtitle" = "勾选影片加入参考库；从参考库中选择当前“幽灵曲线”叠加。";
+"reference.done" = "完成";
+"reference.current" = "当前参考";
+"reference.none" = "无参考";
+"reference.use" = "选用";
+"reference.section.library" = "参考库";
+
+/* Film header */
+"film.header.no_face" = "无稳定主导面孔；唤醒主要由节奏/声音/信息驱动。";
+"film.header.summary" = "%@ · 曲线 %d · 叠加 %d";
+
+/* Diagnostics */
+"diagnostics.title" = "诊断";
+"diagnostics.none" = "未检测到诊断问题。";
+"diagnostics.severity" = "严重度";
+
+/* Issue types */
+"issue.type.LowActivity" = "低活动";
+"issue.type.OvercutFlat" = "过切";
+"issue.type.HighTensionLowPace" = "高张力/低节奏";
+"issue.type.AudioVisualMisalign" = "视听不一致";
+"issue.type.SoundOverdriveFlatEmotion" = "声音过载/情绪平";
+"issue.type.SilentHighTension" = "静默高张力";
+"issue.type.InfoKillsEmotion" = "信息压制情绪";
+"issue.type.CognitiveOverload" = "认知过载";
+"issue.type.SoundColorConflict" = "声音-色彩冲突";
+"issue.type.ColorEmotionMismatchWarm" = "色彩-情绪不匹配（暖）";
+"issue.type.ColorEmotionMismatchCold" = "色彩-情绪不匹配（冷）";
+"issue.type.ModeCounterpoint" = "调式对位";
+"issue.type.FacialAffectSuppressed" = "面部情绪受抑";
+"issue.type.NonCharacterDrivenPeak" = "非角色驱动峰值";
+
+/* Time ranges / terms */
+"term.shot" = "镜头";
+"term.scene" = "场景";
+"term.sequence" = "段落";
+"term.act" = "幕";
+"term.issue" = "问题";
+"term.seconds_short" = "%d 秒";
+"term.seconds_value" = "%@ 秒";
+
+/* Structure */
+"structure.shot_hover" = "镜头 %d  %@";
+
+/* Errors */
+"error.db_missing" = "未找到分析数据库，请先运行视频分析或选择数据库文件。";
+"error.decode_failed" = "读取或解析分析结果失败。";
+"error.video_invalid" = "无法读取该视频文件。";
+"error.analysis_failed" = "分析失败（错误码 %d）。";
+
+/* Export structure */
+"export.structure.counts" = "镜头 %d · 场景 %d · 段落 %d · 幕 %d";
+
+/* Report markdown */
+"report.md.year" = "年份";
+"report.md.director" = "导演";
+"report.md.duration" = "时长";
+"report.md.file" = "文件";
+"report.md.curves" = "曲线";
+"report.md.structure" = "结构";
+"report.md.diagnostics" = "诊断";
+"report.md.none" = "无";
+"report.md.generated_by" = "由 ArcScope 生成";
+
+/* Overlay */
+"overlay.badge.pitch_purity" = "%@  p=%@";
+"overlay.multichannel" = "多通道叠加（%d）";
+
+/* Overlay kinds (labels) */
+"overlay.kind.color_brightness" = "亮度";
+"overlay.kind.color_saturation" = "饱和度";
+"overlay.kind.color_warmth" = "暖度";
+"overlay.kind.color_grayness" = "灰度";
+"overlay.kind.color_energy" = "色彩能量";
+"overlay.kind.color_harmony" = "色彩和谐";
+"overlay.kind.color_contrast" = "色彩对比（ΔE）";
+"overlay.kind.hue_deg" = "色相";
+"overlay.kind.hue_hist12" = "色相轨迹";
+"overlay.kind.color_state" = "色彩状态";
+"overlay.kind.state_shift" = "状态变化";
+"overlay.kind.align_norm" = "对齐范数";
+"overlay.kind.counterpoint" = "对位";
+"overlay.kind.loudness" = "响度";
+"overlay.kind.rhythm_drive" = "节奏驱动";
+"overlay.kind.spectral_brightness" = "频谱亮度";
+"overlay.kind.spectral_centroid_hz" = "频谱质心（Hz）";
+"overlay.kind.spectral_hf_ratio" = "高频能量占比";
+"overlay.kind.dialogue_clarity" = "对白清晰度";
+"overlay.kind.speech_probability" = "语音概率";
+"overlay.kind.bpm" = "BPM";
+"overlay.kind.tempo_confidence" = "节拍置信度";
+"overlay.kind.harmonic_tension" = "和声张力";
+"overlay.kind.stereo_width" = "立体声宽度";
+"overlay.kind.reverb_amount" = "混响量";
+"overlay.kind.silence_score" = "静默评分";
+"overlay.kind.key_change_density" = "调性变化密度";
+"overlay.kind.is_speaking" = "是否说话";
+"overlay.kind.look_at_camera" = "看向镜头";
+"overlay.kind.frontal_score" = "正面评分";
+"overlay.kind.downcast_score" = "低头评分";
+"overlay.kind.dialogue_dominance" = "对白主导";
+"overlay.kind.music_dominance" = "音乐主导";
+"overlay.kind.effects_dominance" = "效果声主导";
+"overlay.kind.dialogue_energy" = "对白能量";
+"overlay.kind.music_energy" = "音乐能量";
+"overlay.kind.effects_energy" = "效果声能量";
+"overlay.kind.chroma12" = "音高类（Chroma）";
+"overlay.kind.key_pc" = "调性";
+"overlay.kind.face_presence" = "人脸存在";
+"overlay.kind.camera_motion" = "镜头运动";
+"overlay.kind.object_motion" = "物体运动";
+"overlay.kind.camera_vs_object_delta" = "镜头−物体差";
+"overlay.kind.camera_motion_type" = "镜头运动类型";
+"overlay.kind.shot_scale" = "景别（ELS→ECU）";
+"overlay.kind.exposition_curve" = "信息曲线";
+"overlay.kind.verbal_load" = "语言负荷";
+"overlay.kind.visual_load" = "视觉负荷";
+"overlay.kind.event_load" = "事件负荷";
+"overlay.kind.visual_entropy" = "视觉熵";
+"overlay.kind.shot_scale_numeric" = "景别数值";
+"overlay.kind.camera_motion_complexity" = "镜头运动复杂度";
+"overlay.kind.face_change" = "人脸变化";
+"overlay.kind.emotion_progress" = "情绪进度 u(t)";
+"overlay.conf_value" = "置信度 %@";
+"overlay.state.on" = "开";
+"overlay.state.off" = "关";
+"overlay.state_value" = "%@ %@";

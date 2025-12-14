@@ -1,0 +1,165 @@
+/* Library */
+"library.title" = "Mediathek";
+"library.db_label" = "DB: %@";
+"library.select_database" = "Datenbank auswählen";
+"library.loading" = "Wird geladen…";
+"library.analyze_new_film" = "Neuen Film analysieren";
+"library.database" = "Datenbank";
+"library.references" = "Referenzen";
+"library.export" = "Export";
+"library.settings" = "Einstellungen";
+"library.empty_state.title" = "Los geht’s";
+"library.empty_state.body" = "Wähle eine Datenbank aus oder analysiere einen Film, um eine zu erstellen.";
+
+/* Progress */
+"progress.analyzing" = "Analysiere…%@";
+
+/* Timeline */
+"timeline.selected.u_range" = "u: %@–%@";
+"timeline.hud.t_u" = "t = %@  ·  u = %@";
+"timeline.hud.t" = "t = %@";
+"timeline.hud.ref" = "Ref %@: %@";
+
+/* Settings */
+"settings.title" = "Einstellungen";
+"settings.subtitle" = "Analyseparameter (lokal in UserDefaults gespeichert).";
+"settings.close" = "Schließen";
+"settings.section.structure" = "Struktur";
+"settings.structure.reparam" = "Szene/Sequenz-Splitting nach Emotionsfortschritt u(t) reparametrisieren";
+
+/* Export */
+"export.mode" = "Modus";
+"export.mode.poster" = "Poster";
+"export.mode.report" = "Bericht";
+"export.report.title" = "Berichtsexport";
+"export.report.subtitle" = "Standard-Analysebericht (PDF / Markdown).";
+"export.report.export_markdown" = "Markdown exportieren";
+"export.report.export_pdf" = "PDF exportieren";
+"export.close" = "Schließen";
+"export.markdown_preview" = "Markdown-Vorschau";
+"export.section.curves" = "Kurven";
+"export.section.structure" = "Struktur";
+"export.section.diagnostics" = "Diagnose";
+"export.no_issues" = "Keine Probleme erkannt.";
+"export.more_issues" = "…und %d mehr";
+
+/* Film header */
+"film.header.no_face" = "Kein stabiles dominantes Gesicht; Arousal wird durch Tempo + Ton + Information getrieben.";
+"film.header.summary" = "%@ · Kurven %d · Overlays %d";
+
+/* Diagnostics */
+"diagnostics.title" = "Diagnose";
+"diagnostics.none" = "Keine Diagnoseprobleme erkannt.";
+"diagnostics.severity" = "Schweregrad";
+
+/* Issue types */
+"issue.type.LowActivity" = "Geringe Aktivität";
+"issue.type.OvercutFlat" = "Zu viele Schnitte";
+"issue.type.HighTensionLowPace" = "Hohe Spannung / Niedriges Tempo";
+"issue.type.AudioVisualMisalign" = "Audio-Visuelle Fehlanpassung";
+"issue.type.SoundOverdriveFlatEmotion" = "Ton-Übersteuerung / Flache Emotion";
+"issue.type.SilentHighTension" = "Stille hohe Spannung";
+"issue.type.InfoKillsEmotion" = "Information unterdrückt Emotion";
+"issue.type.CognitiveOverload" = "Kognitive Überlastung";
+"issue.type.SoundColorConflict" = "Ton–Farb-Konflikt";
+"issue.type.ColorEmotionMismatchWarm" = "Farbe–Emotion nicht passend (Warm)";
+"issue.type.ColorEmotionMismatchCold" = "Farbe–Emotion nicht passend (Kalt)";
+"issue.type.ModeCounterpoint" = "Modus-Kontrapunkt";
+"issue.type.FacialAffectSuppressed" = "Gesichtsausdruck unterdrückt";
+"issue.type.NonCharacterDrivenPeak" = "Nicht figurengetriebener Peak";
+
+/* Time ranges / terms */
+"term.shot" = "Einstellung";
+"term.scene" = "Szene";
+"term.sequence" = "Sequenz";
+"term.act" = "Akt";
+"term.issue" = "Problem";
+"term.seconds_short" = "%d s";
+"term.seconds_value" = "%@ s";
+
+/* Structure */
+"structure.shot_hover" = "Einstellung %d  %@";
+
+/* Errors */
+"error.db_missing" = "Keine Analyse-Datenbank gefunden. Analysiere ein Video oder wähle eine Datenbankdatei aus.";
+"error.decode_failed" = "Analyseergebnisse konnten nicht gelesen oder dekodiert werden.";
+"error.video_invalid" = "Diese Videodatei kann nicht gelesen werden.";
+"error.analysis_failed" = "Analyse fehlgeschlagen (Code %d).";
+
+/* Export structure */
+"export.structure.counts" = "Einstellungen %d · Szenen %d · Sequenzen %d · Akte %d";
+
+/* Report markdown */
+"report.md.year" = "Jahr";
+"report.md.director" = "Regie";
+"report.md.duration" = "Dauer";
+"report.md.file" = "Datei";
+"report.md.curves" = "Kurven";
+"report.md.structure" = "Struktur";
+"report.md.diagnostics" = "Diagnose";
+"report.md.none" = "keine";
+"report.md.generated_by" = "Erstellt von ArcScope";
+
+/* Overlay */
+"overlay.badge.pitch_purity" = "%@  p=%@";
+"overlay.multichannel" = "Mehrkanal-Overlay (%d)";
+
+/* Overlay kinds (labels) */
+"overlay.kind.color_brightness" = "Farbhelligkeit";
+"overlay.kind.color_saturation" = "Farbsättigung";
+"overlay.kind.color_warmth" = "Farbwärme";
+"overlay.kind.color_grayness" = "Grauwert";
+"overlay.kind.color_energy" = "Farbenergie";
+"overlay.kind.color_harmony" = "Farbharmonie";
+"overlay.kind.color_contrast" = "Farbkontrast (ΔE)";
+"overlay.kind.hue_deg" = "Farbton";
+"overlay.kind.hue_hist12" = "Farbton-Track";
+"overlay.kind.color_state" = "Farbzustand";
+"overlay.kind.state_shift" = "Zustandswechsel";
+"overlay.kind.align_norm" = "AlignNorm";
+"overlay.kind.counterpoint" = "Kontrapunkt";
+"overlay.kind.loudness" = "Lautheit";
+"overlay.kind.rhythm_drive" = "Rhythmusantrieb";
+"overlay.kind.spectral_brightness" = "Spektrale Helligkeit";
+"overlay.kind.spectral_centroid_hz" = "Spektralschwerpunkt (Hz)";
+"overlay.kind.spectral_hf_ratio" = "HF-Energieanteil";
+"overlay.kind.dialogue_clarity" = "Dialogklarheit";
+"overlay.kind.speech_probability" = "Sprachwahrscheinlichkeit";
+"overlay.kind.bpm" = "BPM";
+"overlay.kind.tempo_confidence" = "Tempo-Konfidenz";
+"overlay.kind.harmonic_tension" = "Harmonische Spannung";
+"overlay.kind.stereo_width" = "Stereobreite";
+"overlay.kind.reverb_amount" = "Hallanteil";
+"overlay.kind.silence_score" = "Stille-Score";
+"overlay.kind.key_change_density" = "Tonartwechsel-Dichte";
+"overlay.kind.is_speaking" = "Spricht";
+"overlay.kind.look_at_camera" = "Blick zur Kamera";
+"overlay.kind.frontal_score" = "Frontal-Score";
+"overlay.kind.downcast_score" = "Downcast-Score";
+"overlay.kind.dialogue_dominance" = "Dialogdominanz";
+"overlay.kind.music_dominance" = "Musikdominanz";
+"overlay.kind.effects_dominance" = "Effektdominanz";
+"overlay.kind.dialogue_energy" = "Dialogenergie";
+"overlay.kind.music_energy" = "Musikenergie";
+"overlay.kind.effects_energy" = "Effektenergie";
+"overlay.kind.chroma12" = "Chroma";
+"overlay.kind.key_pc" = "Tonart";
+"overlay.kind.face_presence" = "Gesicht vorhanden";
+"overlay.kind.camera_motion" = "Kamerabewegung";
+"overlay.kind.object_motion" = "Objektbewegung";
+"overlay.kind.camera_vs_object_delta" = "Kamera−Objekt";
+"overlay.kind.camera_motion_type" = "Kamerabewegungstyp";
+"overlay.kind.shot_scale" = "Einstellungsgröße (ELS→ECU)";
+"overlay.kind.exposition_curve" = "Exposition";
+"overlay.kind.verbal_load" = "Verbale Last";
+"overlay.kind.visual_load" = "Visuelle Last";
+"overlay.kind.event_load" = "Ereignislast";
+"overlay.kind.visual_entropy" = "Visuelle Entropie";
+"overlay.kind.shot_scale_numeric" = "ShotScaleNumeric";
+"overlay.kind.camera_motion_complexity" = "Kamerabewegungskomplexität";
+"overlay.kind.face_change" = "Gesichtswechsel";
+"overlay.kind.emotion_progress" = "Emotionsfortschritt u(t)";
+"overlay.conf_value" = "conf %@";
+"overlay.state.on" = "an";
+"overlay.state.off" = "aus";
+"overlay.state_value" = "%@ %@";

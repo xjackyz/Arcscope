@@ -1,0 +1,5 @@
+module CAArcScopeBridge [system] {
+    header "../../../bridge/include/arcscope_bridge.h"
+    link "arcscope_bridge"
+    export *
+}

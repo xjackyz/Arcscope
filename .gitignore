@@ -1,0 +1,22 @@
+.DS_Store
+
+# CMake / build artifacts
+build/
+bridge/build/
+core/build/
+bridge_build/
+
+# SwiftPM
+app/.build/
+app/.swiftpm/
+app/.cache/
+app/.home/
+
+# Xcode
+DerivedData/
+*.xcodeproj/*
+*.xcworkspace/*
+xcuserdata/
+
+# Local app data (if any)
+db/
